@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TabScroll.podspec' to ensure this is a
+#  Be sure to run `pod spec lint VerifyCodeButton.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "TabScroll, TabScroll"
+  s.description  = "VerifyCodeButton, VerifyCodeButton"
 
   s.homepage     = "https://github.com/xieran2017/VerifyCodeButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xieran2017/TabScroll.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xieran2017/VerifyCodeButton.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
