@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5284966E206B78BF00D329E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284966D206B78BF00D329E1 /* AppDelegate.swift */; };
+		52849670206B78BF00D329E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284966F206B78BF00D329E1 /* ViewController.swift */; };
+		52849673206B78BF00D329E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52849671206B78BF00D329E1 /* Main.storyboard */; };
+		52849675206B78BF00D329E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52849674206B78BF00D329E1 /* Assets.xcassets */; };
+		52849678206B78BF00D329E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52849676206B78BF00D329E1 /* LaunchScreen.storyboard */; };
+		52849683206B78BF00D329E1 /* SmsCodeButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52849682206B78BF00D329E1 /* SmsCodeButtonTests.swift */; };
+		5284968E206B78BF00D329E1 /* SmsCodeButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284968D206B78BF00D329E1 /* SmsCodeButtonUITests.swift */; };
+		5284969D206B7ACD00D329E1 /* VerifyCodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284969C206B7ACD00D329E1 /* VerifyCodeButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5284967F206B78BF00D329E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52849662206B78BF00D329E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52849669206B78BF00D329E1;
+			remoteInfo = SmsCodeButton;
+		};
+		5284968A206B78BF00D329E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52849662206B78BF00D329E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52849669206B78BF00D329E1;
+			remoteInfo = SmsCodeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5284966A206B78BF00D329E1 /* VerifyCodeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyCodeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5284966D206B78BF00D329E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5284966F206B78BF00D329E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52849672206B78BF00D329E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52849674206B78BF00D329E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52849677206B78BF00D329E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52849679206B78BF00D329E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5284967E206B78BF00D329E1 /* VerifyCodeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerifyCodeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52849682206B78BF00D329E1 /* SmsCodeButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsCodeButtonTests.swift; sourceTree = "<group>"; };
+		52849684206B78BF00D329E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52849689206B78BF00D329E1 /* VerifyCodeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerifyCodeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5284968D206B78BF00D329E1 /* SmsCodeButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsCodeButtonUITests.swift; sourceTree = "<group>"; };
+		5284968F206B78BF00D329E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5284969C206B7ACD00D329E1 /* VerifyCodeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCodeButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52849667206B78BF00D329E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284967B206B78BF00D329E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52849686206B78BF00D329E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52849661206B78BF00D329E1 = {
+			isa = PBXGroup;
+			children = (
+				5284966C206B78BF00D329E1 /* VerifyCodeButton */,
+				52849681206B78BF00D329E1 /* VerifyCodeButtonTests */,
+				5284968C206B78BF00D329E1 /* VerifyCodeButtonUITests */,
+				5284966B206B78BF00D329E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5284966B206B78BF00D329E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5284966A206B78BF00D329E1 /* VerifyCodeButton.app */,
+				5284967E206B78BF00D329E1 /* VerifyCodeButtonTests.xctest */,
+				52849689206B78BF00D329E1 /* VerifyCodeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5284966C206B78BF00D329E1 /* VerifyCodeButton */ = {
+			isa = PBXGroup;
+			children = (
+				5284969B206B7ACD00D329E1 /* Source */,
+				5284966D206B78BF00D329E1 /* AppDelegate.swift */,
+				5284966F206B78BF00D329E1 /* ViewController.swift */,
+				52849671206B78BF00D329E1 /* Main.storyboard */,
+				52849674206B78BF00D329E1 /* Assets.xcassets */,
+				52849676206B78BF00D329E1 /* LaunchScreen.storyboard */,
+				52849679206B78BF00D329E1 /* Info.plist */,
+			);
+			path = VerifyCodeButton;
+			sourceTree = "<group>";
+		};
+		52849681206B78BF00D329E1 /* VerifyCodeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				52849682206B78BF00D329E1 /* SmsCodeButtonTests.swift */,
+				52849684206B78BF00D329E1 /* Info.plist */,
+			);
+			path = VerifyCodeButtonTests;
+			sourceTree = "<group>";
+		};
+		5284968C206B78BF00D329E1 /* VerifyCodeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5284968D206B78BF00D329E1 /* SmsCodeButtonUITests.swift */,
+				5284968F206B78BF00D329E1 /* Info.plist */,
+			);
+			path = VerifyCodeButtonUITests;
+			sourceTree = "<group>";
+		};
+		5284969B206B7ACD00D329E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5284969C206B7ACD00D329E1 /* VerifyCodeButton.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52849669206B78BF00D329E1 /* VerifyCodeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52849692206B78BF00D329E1 /* Build configuration list for PBXNativeTarget "VerifyCodeButton" */;
+			buildPhases = (
+				52849666206B78BF00D329E1 /* Sources */,
+				52849667206B78BF00D329E1 /* Frameworks */,
+				52849668206B78BF00D329E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerifyCodeButton;
+			productName = SmsCodeButton;
+			productReference = 5284966A206B78BF00D329E1 /* VerifyCodeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5284967D206B78BF00D329E1 /* VerifyCodeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52849695206B78BF00D329E1 /* Build configuration list for PBXNativeTarget "VerifyCodeButtonTests" */;
+			buildPhases = (
+				5284967A206B78BF00D329E1 /* Sources */,
+				5284967B206B78BF00D329E1 /* Frameworks */,
+				5284967C206B78BF00D329E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52849680206B78BF00D329E1 /* PBXTargetDependency */,
+			);
+			name = VerifyCodeButtonTests;
+			productName = SmsCodeButtonTests;
+			productReference = 5284967E206B78BF00D329E1 /* VerifyCodeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52849688206B78BF00D329E1 /* VerifyCodeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52849698206B78BF00D329E1 /* Build configuration list for PBXNativeTarget "VerifyCodeButtonUITests" */;
+			buildPhases = (
+				52849685206B78BF00D329E1 /* Sources */,
+				52849686206B78BF00D329E1 /* Frameworks */,
+				52849687206B78BF00D329E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5284968B206B78BF00D329E1 /* PBXTargetDependency */,
+			);
+			name = VerifyCodeButtonUITests;
+			productName = SmsCodeButtonUITests;
+			productReference = 52849689206B78BF00D329E1 /* VerifyCodeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52849662206B78BF00D329E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xieran;
+				TargetAttributes = {
+					52849669206B78BF00D329E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					5284967D206B78BF00D329E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52849669206B78BF00D329E1;
+					};
+					52849688206B78BF00D329E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52849669206B78BF00D329E1;
+					};
+				};
+			};
+			buildConfigurationList = 52849665206B78BF00D329E1 /* Build configuration list for PBXProject "VerifyCodeButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52849661206B78BF00D329E1;
+			productRefGroup = 5284966B206B78BF00D329E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52849669206B78BF00D329E1 /* VerifyCodeButton */,
+				5284967D206B78BF00D329E1 /* VerifyCodeButtonTests */,
+				52849688206B78BF00D329E1 /* VerifyCodeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52849668206B78BF00D329E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52849678206B78BF00D329E1 /* LaunchScreen.storyboard in Resources */,
+				52849675206B78BF00D329E1 /* Assets.xcassets in Resources */,
+				52849673206B78BF00D329E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284967C206B78BF00D329E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52849687206B78BF00D329E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52849666206B78BF00D329E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5284969D206B7ACD00D329E1 /* VerifyCodeButton.swift in Sources */,
+				52849670206B78BF00D329E1 /* ViewController.swift in Sources */,
+				5284966E206B78BF00D329E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284967A206B78BF00D329E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52849683206B78BF00D329E1 /* SmsCodeButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52849685206B78BF00D329E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5284968E206B78BF00D329E1 /* SmsCodeButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52849680206B78BF00D329E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52849669206B78BF00D329E1 /* VerifyCodeButton */;
+			targetProxy = 5284967F206B78BF00D329E1 /* PBXContainerItemProxy */;
+		};
+		5284968B206B78BF00D329E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52849669206B78BF00D329E1 /* VerifyCodeButton */;
+			targetProxy = 5284968A206B78BF00D329E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52849671206B78BF00D329E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52849672206B78BF00D329E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52849676206B78BF00D329E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52849677206B78BF00D329E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52849690206B78BF00D329E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52849691206B78BF00D329E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52849693206B78BF00D329E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VerifyCodeButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.smsCodeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52849694206B78BF00D329E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VerifyCodeButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.smsCodeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52849696206B78BF00D329E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmsCodeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.smsCodeButton.SmsCodeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerifyCodeButton.app/VerifyCodeButton";
+			};
+			name = Debug;
+		};
+		52849697206B78BF00D329E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmsCodeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.smsCodeButton.SmsCodeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerifyCodeButton.app/VerifyCodeButton";
+			};
+			name = Release;
+		};
+		52849699206B78BF00D329E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmsCodeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.smsCodeButton.SmsCodeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmsCodeButton;
+			};
+			name = Debug;
+		};
+		5284969A206B78BF00D329E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmsCodeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.smsCodeButton.SmsCodeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmsCodeButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52849665206B78BF00D329E1 /* Build configuration list for PBXProject "VerifyCodeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52849690206B78BF00D329E1 /* Debug */,
+				52849691206B78BF00D329E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52849692206B78BF00D329E1 /* Build configuration list for PBXNativeTarget "VerifyCodeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52849693206B78BF00D329E1 /* Debug */,
+				52849694206B78BF00D329E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52849695206B78BF00D329E1 /* Build configuration list for PBXNativeTarget "VerifyCodeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52849696206B78BF00D329E1 /* Debug */,
+				52849697206B78BF00D329E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52849698206B78BF00D329E1 /* Build configuration list for PBXNativeTarget "VerifyCodeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52849699206B78BF00D329E1 /* Debug */,
+				5284969A206B78BF00D329E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52849662206B78BF00D329E1 /* Project object */;
+}
